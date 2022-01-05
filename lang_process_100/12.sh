@@ -12,7 +12,7 @@ touch "col1.txt"
 touch "col2.txt"
 while read line
 do
-    echo $line
+    # echo $line
     cols=($line)
     echo ${cols[0]} >> "col1.txt"
     echo ${cols[1]} >> "col2.txt"
